@@ -6,6 +6,7 @@ Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://buymeacoffee.com/abidkp
 
 Page-aware media metadata migration from Elementor to Bricks for WordPress.
 

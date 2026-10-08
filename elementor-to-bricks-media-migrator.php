@@ -942,12 +942,44 @@ final class Elementor_To_Bricks_Media_Migrator {
 		$available_post_types = self::get_available_post_types();
 		?>
 		<div class="wrap ebmm-wrap gmm-wrap">
-			<div class="ebmm-header">
-				<h1><?php esc_html_e( 'Elementor to Bricks Media Migrator', 'elementor-to-bricks-media-migrator' ); ?></h1>
-				<p class="description">
-					<?php esc_html_e( 'Export page-wise image metadata from Elementor and map it to images used on matching Bricks target pages.', 'elementor-to-bricks-media-migrator' ); ?>
-					<span> &bull; <?php esc_html_e( 'Developed by Abid KP', 'elementor-to-bricks-media-migrator' ); ?> (<a href="https://abidkp.com" target="_blank" rel="noopener">abidkp.com</a>)</span>
-				</p>
+			<div class="ebmm-header-container">
+				<div class="ebmm-header-main">
+					<div class="ebmm-title-row">
+						<h1><?php esc_html_e( 'Elementor to Bricks Media Migrator', 'elementor-to-bricks-media-migrator' ); ?></h1>
+						<span class="ebmm-version-tag">v<?php echo esc_html( EBMM_VERSION ); ?></span>
+					</div>
+					<p class="description">
+						<?php esc_html_e( 'Export page-wise image metadata from Elementor and map it to images used on matching Bricks target pages.', 'elementor-to-bricks-media-migrator' ); ?>
+					</p>
+				</div>
+
+				<div class="ebmm-author-card" aria-label="<?php esc_attr_e( 'Author Information and Support', 'elementor-to-bricks-media-migrator' ); ?>">
+					<div class="ebmm-author-avatar" aria-hidden="true">
+						<span>AK</span>
+					</div>
+					<div class="ebmm-author-info">
+						<div class="ebmm-author-header">
+							<span class="ebmm-author-role"><?php esc_html_e( 'Created by', 'elementor-to-bricks-media-migrator' ); ?></span>
+							<strong class="ebmm-author-name">Abid KP</strong>
+							<a href="https://abidkp.com" target="_blank" rel="noopener noreferrer" class="ebmm-author-site" title="<?php esc_attr_e( 'Visit Author Website (abidkp.com)', 'elementor-to-bricks-media-migrator' ); ?>">
+								abidkp.com <span class="dashicons dashicons-external" aria-hidden="true"></span>
+							</a>
+						</div>
+						<p class="ebmm-author-tagline">
+							<?php esc_html_e( 'Built to eliminate hours of manual image metadata entry during Elementor to Bricks redesigns.', 'elementor-to-bricks-media-migrator' ); ?>
+						</p>
+					</div>
+					<div class="ebmm-author-support">
+						<a href="https://buymeacoffee.com/abidkp" target="_blank" rel="noopener noreferrer" class="ebmm-bmc-btn" title="<?php esc_attr_e( 'Support the developer on Buy Me a Coffee', 'elementor-to-bricks-media-migrator' ); ?>">
+							<svg class="ebmm-bmc-svg" viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path d="M18.5 7H20C21.1046 7 22 7.89543 22 9V11C22 12.1046 21.1046 13 20 13H18.5" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+								<path d="M3 6H18.5V14C18.5 16.7614 16.2614 19 13.5 19H8C5.23858 19 3 16.7614 3 14V6Z" fill="#000000" fill-opacity="0.12" stroke="#000000" stroke-width="2"/>
+								<path d="M7 2V4M11 2V4M15 2V4M2 22H20" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+							<span><?php esc_html_e( 'Buy me a coffee', 'elementor-to-bricks-media-migrator' ); ?></span>
+						</a>
+					</div>
+				</div>
 			</div>
 
 			<?php if ( $msg_text ) : ?>

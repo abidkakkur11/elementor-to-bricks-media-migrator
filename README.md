@@ -3,10 +3,11 @@
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/abidkp)
 
 A lightweight, secure, and production-ready WordPress plugin for migrating image metadata (Title, Alt Text, Caption, and Description) from Elementor pages to Bricks Builder pages during website redesigns and rebuilds.
 
-Developed by **Abid KP** ([abidkp.com](https://abidkp.com)).
+Developed by **Abid KP** ([abidkp.com](https://abidkp.com)). Support this project: [![Buy Me a Coffee](https://img.shields.io/badge/☕%20Buy%20me%20a%20coffee-ffdd00?style=flat-square)](https://buymeacoffee.com/abidkp)
 
 ---
 
@@ -90,8 +91,14 @@ Select Post Types & Export JSON ────► Download ──► Upload JSON
 
 GPL-2.0-or-later. Free to use, modify, and distribute.
 
-## 👨‍💻 Author
+## 👨‍💻 Author & Support
 
-**Abid KP**  
-Website: [https://abidkp.com](https://abidkp.com)  
-GitHub: [@abidkakkur11](https://github.com/abidkakkur11)
+Developed with ❤️ by **Abid KP**  
+- **Website**: [https://abidkp.com](https://abidkp.com)  
+- **GitHub**: [@abidkakkur11](https://github.com/abidkakkur11)
+
+If this tool saved you hours of manual metadata copying during your Elementor → Bricks migration, please consider supporting future updates and maintenance!
+
+<a href="https://buymeacoffee.com/abidkp" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="46">
+</a>
